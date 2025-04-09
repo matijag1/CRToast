@@ -134,7 +134,7 @@ static CGFloat CRCenterXForActivityIndicatorWithAlignment(CRToastAccessoryViewAl
     CGFloat statusBarYOffset = self.toast.displayUnderStatusBar ? (CRGetStatusBarHeight()+CRStatusBarViewUnderStatusBarYOffsetAdjustment) : 0;
     
     if (CRGetStatusBarHeight() > 20) {
-        statusBarYOffset += 24;
+        statusBarYOffset += 84;
     }
     
     contentFrame.size.height = CGRectGetHeight(contentFrame) - statusBarYOffset;
